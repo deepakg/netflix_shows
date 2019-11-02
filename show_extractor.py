@@ -1,6 +1,6 @@
 from requests_html import HTML
 
-def get_movies_html(doc):
+def get_shows_html(doc):
     html = HTML(html=doc)
 
     # deduplicate movie names as they could be repeated across the text
@@ -18,7 +18,7 @@ def get_movies_html(doc):
 
     return content
 
-def get_movies_nlp(doc):
+def get_shows_nlp(doc):
     import spacy
 
     nlp = spacy.load("en_core_web_lg")
