@@ -79,9 +79,9 @@ def emit_html(movie_sentences):
 if __name__ == '__main__':
     (html, text) = extract_content_section('data/8K-Exhibit-91-2019-Q1.html')
     print("Results using html parsing:")
-    movies_html = get_movies_html(html)
+    movies_html = get_shows_html(html)
     print(movies_html)
     print("")
     print("Results using nlp named entity detection:")
-    movies_nlp = get_movies_nlp(text)
+    movies_nlp = get_shows_nlp(text)
     print(movies_nlp)
