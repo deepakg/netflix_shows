@@ -12,7 +12,9 @@ def get_shows_html(doc):
             if ',' in title:
                 names = title.split(',')
                 for name in names:
-                    content.add(name.strip())
+                    name = name.strip()
+                    if name:
+                        content.add(name)
             else:
                 content.add(title.strip())
 
