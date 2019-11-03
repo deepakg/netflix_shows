@@ -1,3 +1,5 @@
+![Netflix Shows](img/netflix_shows.png)
+
 ## What is this?
 This repository has code I wrote to extract names of TV shows and movies from the quarterly Netflix _Letter to the shareholders_.
 
