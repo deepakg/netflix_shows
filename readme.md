@@ -1,5 +1,5 @@
 ## What is this?
-This repository has code I wrote to extract names of TV shows and movies from the quarterly Netflix __Letter to the shareholders__
+This repository has code I wrote to extract names of TV shows and movies from the quarterly Netflix _Letter to the shareholders_.
 
 For more details about my motivation and explanation of the code, please see my [blog post](https://deepakg.github.io/nlp,/python,/html/parsing/2019/11/01/netflix-shows.html).
 
